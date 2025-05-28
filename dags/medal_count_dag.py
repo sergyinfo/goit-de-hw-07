@@ -23,8 +23,6 @@ FULL_SOURCE_TABLE = f"{SOURCE_SCHEMA}.{SOURCE_TABLE}"
 DELAY_SECONDS = 35  # Час затримки для тестування сенсора
 SENSOR_INTERVAL_SECONDS = 30 # Інтервал перевірки сенсора
 
-# --- Python Функції ---
-
 def choose_random_medal_type() -> str:
     """Випадково обирає тип медалі."""
     medal_types = ["Bronze", "Silver", "Gold"]
